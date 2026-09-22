@@ -2,6 +2,10 @@
 
 This project classifies images of dogs and cats using **Transfer Learning** with the **MobileNetV3** model in Keras. The model is also deployed as an API.
 
+## Live Demo
+https://cat-vs-dog-api.onrender.com/docs
+
+
 ## Project Overview
 
 - Dataset: Dogs vs Cats
@@ -37,8 +41,3 @@ This project classifies images of dogs and cats using **Transfer Learning** with
 ```bash
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
-
-
-## Link
-https://cat-vs-dog-api.onrender.com/docs
